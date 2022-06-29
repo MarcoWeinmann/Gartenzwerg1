@@ -10,10 +10,11 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:adjustViewBounds="false"
         android:orientation="vertical"
+        android:rotation="0"
         android:scaleType="centerCrop"
         app:srcCompat="@drawable/homescreen_background" />
 
